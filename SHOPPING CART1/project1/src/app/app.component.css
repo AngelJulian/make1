@@ -1,0 +1,42 @@
+.container{
+    margin: 200px auto;
+    width: 65%;
+    background-color: #fff;
+    height: 400px;
+    padding-top: 30px;
+}
+h1{
+    padding-bottom:50px;
+
+}
+li{
+    list-style: none;
+}
+label{
+    font-size: 17px;
+    font-weight: 600;
+    width: 100px;
+   
+}
+#cost{
+    font-size: 17px;
+    font-weight: 400;
+    color: blue;
+    border: none;
+    width: 70px;
+    text-align: left;
+    background-color: #ffff;
+}
+.btn-light{
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+#submit{
+    background-color: #fff;
+    padding: 0 12px;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
