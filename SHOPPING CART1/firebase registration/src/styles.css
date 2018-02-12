@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+body{
+    background-color: hotpink;
+}
+.jumbotron{
+    border-radius: 0;
+}
+input.ng-invalid.ng-dirty{
+    border: 1px solid red;
+}
+
+button, ul.list-group.hover li:hover{
+    cursor: pointer;
+}
