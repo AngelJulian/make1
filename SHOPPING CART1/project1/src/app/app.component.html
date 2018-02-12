@@ -7,10 +7,10 @@
     <li *ngFor="let product of products, let i = index">
       <label>{{product.item}}</label>
       <input type="text" id="qtty" name="qtty" placeholder="{{product.qtty}}">
-      <button type="text" id="cost" name="cost">${{product.unitcost}}</button>
+      <button type="text" id="cost" name="cost">{{product.unitcost | currency:'USD'}}</button>
 
         <button class="btn btn-light">
-          <b>${{product.totalCost}}</b>
+          <b>{{product.qtty * product.unitcost | currency:'USD':number}}</b>
         </button>
       
       <button type="submit" id="submit" (click)="removeProduct(i)">Remove</button>
